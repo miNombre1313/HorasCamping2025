@@ -1,0 +1,987 @@
+{
+  "id": "lDqWXSJ4uVWMmtYyceGe",
+  "equipos": 16,
+  "pistas": 11,
+  "nombre": "Prueba1",
+  "rondas": [
+    {
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoA": "Los Picapiedra",
+      "pista": 1,
+      "ronda": 1,
+      "equipoB": "Equipo 2"
+    },
+    {
+      "resultadoB": null,
+      "equipoB": "Equipo 16",
+      "equipoA": "Equipo 3",
+      "ronda": 1,
+      "pista": 4,
+      "resultadoA": null
+    },
+    {
+      "equipoA": "Equipo 4",
+      "equipoB": "Equipo 15",
+      "ronda": 1,
+      "pista": 11,
+      "resultadoA": null,
+      "resultadoB": null
+    },
+    {
+      "resultadoA": null,
+      "resultadoB": null,
+      "ronda": 1,
+      "equipoA": "Equipo 5",
+      "pista": 5,
+      "equipoB": "Equipo 14"
+    },
+    {
+      "ronda": 1,
+      "equipoA": "Equipo 6",
+      "resultadoB": null,
+      "equipoB": "Equipo 13",
+      "resultadoA": null,
+      "pista": 6
+    },
+    {
+      "equipoB": "Equipo 12",
+      "pista": 3,
+      "ronda": 1,
+      "resultadoA": null,
+      "equipoA": "Equipo 7",
+      "resultadoB": null
+    },
+    {
+      "equipoA": "Equipo 8",
+      "equipoB": "Equipo 11",
+      "ronda": 1,
+      "resultadoA": null,
+      "pista": 9,
+      "resultadoB": null
+    },
+    {
+      "resultadoA": null,
+      "equipoB": "Equipo 10",
+      "equipoA": "Equipo 9",
+      "ronda": 1,
+      "resultadoB": null,
+      "pista": 2
+    },
+    {
+      "resultadoB": null,
+      "ronda": 2,
+      "equipoB": "Equipo 16",
+      "pista": 8,
+      "resultadoA": null,
+      "equipoA": "Los Picapiedra"
+    },
+    {
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoB": "Equipo 15",
+      "pista": 2,
+      "ronda": 2,
+      "equipoA": "Equipo 2"
+    },
+    {
+      "ronda": 2,
+      "equipoA": "Equipo 3",
+      "resultadoB": null,
+      "resultadoA": null,
+      "pista": 9,
+      "equipoB": "Equipo 14"
+    },
+    {
+      "equipoB": "Equipo 13",
+      "resultadoB": null,
+      "resultadoA": null,
+      "ronda": 2,
+      "pista": 7,
+      "equipoA": "Equipo 4"
+    },
+    {
+      "equipoB": "Equipo 12",
+      "resultadoB": null,
+      "ronda": 2,
+      "resultadoA": null,
+      "equipoA": "Equipo 5",
+      "pista": 10
+    },
+    {
+      "resultadoA": null,
+      "equipoB": "Equipo 11",
+      "ronda": 2,
+      "pista": 11,
+      "resultadoB": null,
+      "equipoA": "Equipo 6"
+    },
+    {
+      "equipoA": "Equipo 7",
+      "equipoB": "Equipo 10",
+      "resultadoB": null,
+      "pista": 5,
+      "ronda": 2,
+      "resultadoA": null
+    },
+    {
+      "pista": 1,
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoA": "Equipo 8",
+      "equipoB": "Equipo 9",
+      "ronda": 2
+    },
+    {
+      "resultadoA": null,
+      "pista": 3,
+      "equipoA": "Los Picapiedra",
+      "ronda": 3,
+      "resultadoB": null,
+      "equipoB": "Equipo 15"
+    },
+    {
+      "equipoB": "Equipo 14",
+      "equipoA": "Equipo 16",
+      "pista": 4,
+      "ronda": 3,
+      "resultadoB": null,
+      "resultadoA": null
+    },
+    {
+      "pista": 11,
+      "equipoA": "Equipo 2",
+      "resultadoA": null,
+      "equipoB": "Equipo 13",
+      "resultadoB": null,
+      "ronda": 3
+    },
+    {
+      "pista": 6,
+      "ronda": 3,
+      "equipoB": "Equipo 12",
+      "equipoA": "Equipo 3",
+      "resultadoA": null,
+      "resultadoB": null
+    },
+    {
+      "equipoA": "Equipo 4",
+      "ronda": 3,
+      "equipoB": "Equipo 11",
+      "resultadoB": null,
+      "resultadoA": null,
+      "pista": 10
+    },
+    {
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoB": "Equipo 10",
+      "pista": 7,
+      "equipoA": "Equipo 5",
+      "ronda": 3
+    },
+    {
+      "equipoA": "Equipo 6",
+      "equipoB": "Equipo 9",
+      "pista": 5,
+      "resultadoB": null,
+      "ronda": 3,
+      "resultadoA": null
+    },
+    {
+      "equipoB": "Equipo 8",
+      "ronda": 3,
+      "equipoA": "Equipo 7",
+      "resultadoA": null,
+      "resultadoB": null,
+      "pista": 9
+    },
+    {
+      "pista": 6,
+      "equipoB": "Equipo 14",
+      "equipoA": "Los Picapiedra",
+      "ronda": 4,
+      "resultadoB": null,
+      "resultadoA": null
+    },
+    {
+      "resultadoB": null,
+      "equipoA": "Equipo 15",
+      "ronda": 4,
+      "resultadoA": null,
+      "equipoB": "Equipo 13",
+      "pista": 1
+    },
+    {
+      "resultadoB": null,
+      "ronda": 4,
+      "resultadoA": null,
+      "equipoB": "Equipo 12",
+      "pista": 2,
+      "equipoA": "Equipo 16"
+    },
+    {
+      "equipoA": "Equipo 2",
+      "resultadoB": null,
+      "pista": 4,
+      "ronda": 4,
+      "equipoB": "Equipo 11",
+      "resultadoA": null
+    },
+    {
+      "equipoB": "Equipo 10",
+      "resultadoB": null,
+      "resultadoA": null,
+      "pista": 8,
+      "equipoA": "Equipo 3",
+      "ronda": 4
+    },
+    {
+      "equipoB": "Equipo 9",
+      "ronda": 4,
+      "resultadoA": null,
+      "pista": 7,
+      "resultadoB": null,
+      "equipoA": "Equipo 4"
+    },
+    {
+      "pista": 5,
+      "ronda": 4,
+      "resultadoA": null,
+      "equipoA": "Equipo 5",
+      "resultadoB": null,
+      "equipoB": "Equipo 8"
+    },
+    {
+      "resultadoB": null,
+      "pista": 10,
+      "equipoB": "Equipo 7",
+      "resultadoA": null,
+      "ronda": 4,
+      "equipoA": "Equipo 6"
+    },
+    {
+      "ronda": 5,
+      "pista": 8,
+      "resultadoB": null,
+      "equipoA": "Los Picapiedra",
+      "equipoB": "Equipo 13",
+      "resultadoA": null
+    },
+    {
+      "equipoB": "Equipo 12",
+      "resultadoA": null,
+      "equipoA": "Equipo 14",
+      "pista": 9,
+      "ronda": 5,
+      "resultadoB": null
+    },
+    {
+      "equipoB": "Equipo 11",
+      "pista": 10,
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoA": "Equipo 15",
+      "ronda": 5
+    },
+    {
+      "equipoA": "Equipo 16",
+      "resultadoA": null,
+      "ronda": 5,
+      "pista": 6,
+      "resultadoB": null,
+      "equipoB": "Equipo 10"
+    },
+    {
+      "resultadoB": null,
+      "equipoB": "Equipo 9",
+      "pista": 2,
+      "resultadoA": null,
+      "ronda": 5,
+      "equipoA": "Equipo 2"
+    },
+    {
+      "equipoA": "Equipo 3",
+      "equipoB": "Equipo 8",
+      "resultadoA": null,
+      "pista": 11,
+      "resultadoB": null,
+      "ronda": 5
+    },
+    {
+      "resultadoA": null,
+      "pista": 3,
+      "equipoA": "Equipo 4",
+      "ronda": 5,
+      "resultadoB": null,
+      "equipoB": "Equipo 7"
+    },
+    {
+      "ronda": 5,
+      "resultadoB": null,
+      "pista": 1,
+      "resultadoA": null,
+      "equipoB": "Equipo 6",
+      "equipoA": "Equipo 5"
+    },
+    {
+      "equipoB": "Equipo 12",
+      "pista": 10,
+      "resultadoA": null,
+      "equipoA": "Los Picapiedra",
+      "ronda": 6,
+      "resultadoB": null
+    },
+    {
+      "pista": 5,
+      "resultadoA": null,
+      "ronda": 6,
+      "equipoA": "Equipo 13",
+      "resultadoB": null,
+      "equipoB": "Equipo 11"
+    },
+    {
+      "resultadoA": null,
+      "pista": 4,
+      "ronda": 6,
+      "equipoB": "Equipo 10",
+      "resultadoB": null,
+      "equipoA": "Equipo 14"
+    },
+    {
+      "equipoB": "Equipo 9",
+      "equipoA": "Equipo 15",
+      "resultadoB": null,
+      "resultadoA": null,
+      "ronda": 6,
+      "pista": 6
+    },
+    {
+      "equipoA": "Equipo 16",
+      "ronda": 6,
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoB": "Equipo 8",
+      "pista": 2
+    },
+    {
+      "equipoA": "Equipo 2",
+      "resultadoA": null,
+      "ronda": 6,
+      "pista": 8,
+      "equipoB": "Equipo 7",
+      "resultadoB": null
+    },
+    {
+      "ronda": 6,
+      "pista": 3,
+      "equipoB": "Equipo 6",
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoA": "Equipo 3"
+    },
+    {
+      "equipoA": "Equipo 4",
+      "ronda": 6,
+      "pista": 11,
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoB": "Equipo 5"
+    },
+    {
+      "equipoB": "Equipo 11",
+      "ronda": 7,
+      "resultadoA": null,
+      "resultadoB": null,
+      "pista": 11,
+      "equipoA": "Los Picapiedra"
+    },
+    {
+      "resultadoA": null,
+      "equipoB": "Equipo 10",
+      "equipoA": "Equipo 12",
+      "pista": 6,
+      "ronda": 7,
+      "resultadoB": null
+    },
+    {
+      "equipoA": "Equipo 13",
+      "ronda": 7,
+      "equipoB": "Equipo 9",
+      "pista": 3,
+      "resultadoB": null,
+      "resultadoA": null
+    },
+    {
+      "pista": 10,
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoB": "Equipo 8",
+      "ronda": 7,
+      "equipoA": "Equipo 14"
+    },
+    {
+      "ronda": 7,
+      "equipoB": "Equipo 7",
+      "resultadoB": null,
+      "pista": 4,
+      "resultadoA": null,
+      "equipoA": "Equipo 15"
+    },
+    {
+      "resultadoA": null,
+      "ronda": 7,
+      "resultadoB": null,
+      "pista": 8,
+      "equipoA": "Equipo 16",
+      "equipoB": "Equipo 6"
+    },
+    {
+      "equipoB": "Equipo 5",
+      "ronda": 7,
+      "resultadoA": null,
+      "pista": 1,
+      "resultadoB": null,
+      "equipoA": "Equipo 2"
+    },
+    {
+      "pista": 2,
+      "resultadoB": null,
+      "equipoA": "Equipo 3",
+      "equipoB": "Equipo 4",
+      "resultadoA": null,
+      "ronda": 7
+    },
+    {
+      "ronda": 8,
+      "equipoA": "Los Picapiedra",
+      "resultadoB": null,
+      "pista": 2,
+      "equipoB": "Equipo 10",
+      "resultadoA": null
+    },
+    {
+      "resultadoB": null,
+      "ronda": 8,
+      "equipoA": "Equipo 11",
+      "pista": 7,
+      "equipoB": "Equipo 9",
+      "resultadoA": null
+    },
+    {
+      "equipoB": "Equipo 8",
+      "pista": 5,
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoA": "Equipo 12",
+      "ronda": 8
+    },
+    {
+      "equipoB": "Equipo 7",
+      "resultadoB": null,
+      "ronda": 8,
+      "resultadoA": null,
+      "equipoA": "Equipo 13",
+      "pista": 10
+    },
+    {
+      "resultadoB": null,
+      "equipoA": "Equipo 14",
+      "equipoB": "Equipo 6",
+      "ronda": 8,
+      "pista": 11,
+      "resultadoA": null
+    },
+    {
+      "resultadoA": null,
+      "equipoA": "Equipo 15",
+      "ronda": 8,
+      "resultadoB": null,
+      "equipoB": "Equipo 5",
+      "pista": 6
+    },
+    {
+      "pista": 1,
+      "resultadoA": null,
+      "equipoA": "Equipo 16",
+      "resultadoB": null,
+      "ronda": 8,
+      "equipoB": "Equipo 4"
+    },
+    {
+      "equipoB": "Equipo 3",
+      "equipoA": "Equipo 2",
+      "pista": 9,
+      "resultadoA": null,
+      "ronda": 8,
+      "resultadoB": null
+    },
+    {
+      "equipoB": "Equipo 9",
+      "equipoA": "Los Picapiedra",
+      "ronda": 9,
+      "resultadoB": null,
+      "pista": 6,
+      "resultadoA": null
+    },
+    {
+      "resultadoB": null,
+      "pista": 8,
+      "equipoA": "Equipo 10",
+      "resultadoA": null,
+      "equipoB": "Equipo 8",
+      "ronda": 9
+    },
+    {
+      "resultadoB": null,
+      "pista": 2,
+      "equipoB": "Equipo 7",
+      "resultadoA": null,
+      "ronda": 9,
+      "equipoA": "Equipo 11"
+    },
+    {
+      "ronda": 9,
+      "equipoB": "Equipo 6",
+      "resultadoB": null,
+      "equipoA": "Equipo 12",
+      "resultadoA": null,
+      "pista": 4
+    },
+    {
+      "equipoB": "Equipo 5",
+      "ronda": 9,
+      "equipoA": "Equipo 13",
+      "resultadoA": null,
+      "pista": 11,
+      "resultadoB": null
+    },
+    {
+      "resultadoA": null,
+      "pista": 10,
+      "ronda": 9,
+      "equipoA": "Equipo 14",
+      "resultadoB": null,
+      "equipoB": "Equipo 4"
+    },
+    {
+      "equipoA": "Equipo 15",
+      "resultadoB": null,
+      "pista": 7,
+      "equipoB": "Equipo 3",
+      "resultadoA": null,
+      "ronda": 9
+    },
+    {
+      "equipoB": "Equipo 2",
+      "resultadoA": null,
+      "ronda": 9,
+      "equipoA": "Equipo 16",
+      "resultadoB": null,
+      "pista": 3
+    },
+    {
+      "resultadoA": null,
+      "resultadoB": null,
+      "pista": 10,
+      "equipoA": "Los Picapiedra",
+      "ronda": 10,
+      "equipoB": "Equipo 8"
+    },
+    {
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoA": "Equipo 9",
+      "pista": 4,
+      "ronda": 10,
+      "equipoB": "Equipo 7"
+    },
+    {
+      "equipoB": "Equipo 6",
+      "pista": 3,
+      "equipoA": "Equipo 10",
+      "resultadoB": null,
+      "resultadoA": null,
+      "ronda": 10
+    },
+    {
+      "resultadoA": null,
+      "equipoA": "Equipo 11",
+      "equipoB": "Equipo 5",
+      "pista": 9,
+      "ronda": 10,
+      "resultadoB": null
+    },
+    {
+      "pista": 5,
+      "equipoA": "Equipo 12",
+      "resultadoA": null,
+      "equipoB": "Equipo 4",
+      "resultadoB": null,
+      "ronda": 10
+    },
+    {
+      "equipoA": "Equipo 13",
+      "ronda": 10,
+      "resultadoB": null,
+      "pista": 1,
+      "equipoB": "Equipo 3",
+      "resultadoA": null
+    },
+    {
+      "equipoA": "Equipo 14",
+      "pista": 8,
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoB": "Equipo 2",
+      "ronda": 10
+    },
+    {
+      "equipoA": "Equipo 15",
+      "equipoB": "Equipo 16",
+      "pista": 11,
+      "ronda": 10,
+      "resultadoB": null,
+      "resultadoA": null
+    },
+    {
+      "resultadoA": null,
+      "equipoB": "Equipo 7",
+      "pista": 1,
+      "equipoA": "Los Picapiedra",
+      "ronda": 11,
+      "resultadoB": null
+    },
+    {
+      "resultadoA": null,
+      "ronda": 11,
+      "resultadoB": null,
+      "equipoA": "Equipo 8",
+      "equipoB": "Equipo 6",
+      "pista": 8
+    },
+    {
+      "pista": 10,
+      "resultadoA": null,
+      "resultadoB": null,
+      "ronda": 11,
+      "equipoB": "Equipo 5",
+      "equipoA": "Equipo 9"
+    },
+    {
+      "equipoA": "Equipo 10",
+      "ronda": 11,
+      "equipoB": "Equipo 4",
+      "resultadoB": null,
+      "resultadoA": null,
+      "pista": 9
+    },
+    {
+      "resultadoA": null,
+      "equipoB": "Equipo 3",
+      "equipoA": "Equipo 11",
+      "ronda": 11,
+      "pista": 3,
+      "resultadoB": null
+    },
+    {
+      "equipoB": "Equipo 2",
+      "pista": 7,
+      "ronda": 11,
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoA": "Equipo 12"
+    },
+    {
+      "equipoB": "Equipo 16",
+      "pista": 6,
+      "ronda": 11,
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoA": "Equipo 13"
+    },
+    {
+      "equipoB": "Equipo 15",
+      "resultadoA": null,
+      "pista": 2,
+      "resultadoB": null,
+      "equipoA": "Equipo 14",
+      "ronda": 11
+    },
+    {
+      "pista": 9,
+      "ronda": 12,
+      "resultadoB": null,
+      "equipoB": "Equipo 6",
+      "resultadoA": null,
+      "equipoA": "Los Picapiedra"
+    },
+    {
+      "resultadoA": null,
+      "ronda": 12,
+      "equipoB": "Equipo 5",
+      "equipoA": "Equipo 7",
+      "pista": 7,
+      "resultadoB": null
+    },
+    {
+      "resultadoB": null,
+      "pista": 1,
+      "resultadoA": null,
+      "equipoB": "Equipo 4",
+      "equipoA": "Equipo 8",
+      "ronda": 12
+    },
+    {
+      "equipoB": "Equipo 3",
+      "pista": 8,
+      "equipoA": "Equipo 9",
+      "resultadoA": null,
+      "resultadoB": null,
+      "ronda": 12
+    },
+    {
+      "resultadoA": null,
+      "pista": 5,
+      "resultadoB": null,
+      "equipoB": "Equipo 2",
+      "ronda": 12,
+      "equipoA": "Equipo 10"
+    },
+    {
+      "resultadoA": null,
+      "pista": 10,
+      "equipoA": "Equipo 11",
+      "resultadoB": null,
+      "ronda": 12,
+      "equipoB": "Equipo 16"
+    },
+    {
+      "ronda": 12,
+      "pista": 4,
+      "equipoB": "Equipo 15",
+      "resultadoA": null,
+      "equipoA": "Equipo 12",
+      "resultadoB": null
+    },
+    {
+      "pista": 3,
+      "resultadoA": null,
+      "equipoB": "Equipo 14",
+      "equipoA": "Equipo 13",
+      "ronda": 12,
+      "resultadoB": null
+    },
+    {
+      "resultadoB": null,
+      "equipoA": "Los Picapiedra",
+      "ronda": 13,
+      "equipoB": "Equipo 5",
+      "pista": 2,
+      "resultadoA": null
+    },
+    {
+      "resultadoB": null,
+      "equipoA": "Equipo 6",
+      "resultadoA": null,
+      "ronda": 13,
+      "pista": 6,
+      "equipoB": "Equipo 4"
+    },
+    {
+      "ronda": 13,
+      "resultadoA": null,
+      "equipoA": "Equipo 7",
+      "equipoB": "Equipo 3",
+      "resultadoB": null,
+      "pista": 11
+    },
+    {
+      "equipoA": "Equipo 8",
+      "equipoB": "Equipo 2",
+      "pista": 3,
+      "resultadoB": null,
+      "resultadoA": null,
+      "ronda": 13
+    },
+    {
+      "equipoA": "Equipo 9",
+      "resultadoA": null,
+      "ronda": 13,
+      "equipoB": "Equipo 16",
+      "resultadoB": null,
+      "pista": 9
+    },
+    {
+      "resultadoB": null,
+      "pista": 10,
+      "equipoA": "Equipo 10",
+      "equipoB": "Equipo 15",
+      "resultadoA": null,
+      "ronda": 13
+    },
+    {
+      "ronda": 13,
+      "equipoB": "Equipo 14",
+      "pista": 8,
+      "equipoA": "Equipo 11",
+      "resultadoA": null,
+      "resultadoB": null
+    },
+    {
+      "resultadoB": null,
+      "pista": 7,
+      "equipoA": "Equipo 12",
+      "equipoB": "Equipo 13",
+      "ronda": 13,
+      "resultadoA": null
+    },
+    {
+      "resultadoA": null,
+      "ronda": 14,
+      "pista": 3,
+      "resultadoB": null,
+      "equipoB": "Equipo 4",
+      "equipoA": "Los Picapiedra"
+    },
+    {
+      "equipoB": "Equipo 3",
+      "resultadoB": null,
+      "equipoA": "Equipo 5",
+      "resultadoA": null,
+      "ronda": 14,
+      "pista": 4
+    },
+    {
+      "ronda": 14,
+      "resultadoA": null,
+      "equipoA": "Equipo 6",
+      "resultadoB": null,
+      "equipoB": "Equipo 2",
+      "pista": 9
+    },
+    {
+      "ronda": 14,
+      "equipoB": "Equipo 16",
+      "resultadoA": null,
+      "resultadoB": null,
+      "equipoA": "Equipo 7",
+      "pista": 1
+    },
+    {
+      "resultadoB": null,
+      "pista": 7,
+      "equipoB": "Equipo 15",
+      "ronda": 14,
+      "resultadoA": null,
+      "equipoA": "Equipo 8"
+    },
+    {
+      "ronda": 14,
+      "resultadoB": null,
+      "equipoB": "Equipo 14",
+      "resultadoA": null,
+      "equipoA": "Equipo 9",
+      "pista": 11
+    },
+    {
+      "ronda": 14,
+      "equipoB": "Equipo 13",
+      "equipoA": "Equipo 10",
+      "resultadoB": null,
+      "resultadoA": null,
+      "pista": 6
+    },
+    {
+      "pista": 2,
+      "resultadoA": null,
+      "equipoB": "Equipo 12",
+      "resultadoB": null,
+      "equipoA": "Equipo 11",
+      "ronda": 14
+    },
+    {
+      "ronda": 15,
+      "resultadoB": null,
+      "equipoA": "Los Picapiedra",
+      "resultadoA": null,
+      "equipoB": "Equipo 3",
+      "pista": 5
+    },
+    {
+      "resultadoA": null,
+      "pista": 4,
+      "equipoB": "Equipo 2",
+      "ronda": 15,
+      "resultadoB": null,
+      "equipoA": "Equipo 4"
+    },
+    {
+      "pista": 3,
+      "equipoA": "Equipo 5",
+      "equipoB": "Equipo 16",
+      "ronda": 15,
+      "resultadoB": null,
+      "resultadoA": null
+    },
+    {
+      "resultadoA": null,
+      "equipoA": "Equipo 6",
+      "pista": 1,
+      "ronda": 15,
+      "equipoB": "Equipo 15",
+      "resultadoB": null
+    },
+    {
+      "resultadoB": null,
+      "resultadoA": null,
+      "equipoB": "Equipo 14",
+      "pista": 2,
+      "ronda": 15,
+      "equipoA": "Equipo 7"
+    },
+    {
+      "equipoA": "Equipo 8",
+      "pista": 5,
+      "equipoB": "Equipo 13",
+      "ronda": 15,
+      "resultadoB": null,
+      "resultadoA": null
+    },
+    {
+      "resultadoB": null,
+      "ronda": 15,
+      "equipoB": "Equipo 12",
+      "equipoA": "Equipo 9",
+      "resultadoA": null,
+      "pista": 9
+    },
+    {
+      "pista": 7,
+      "resultadoB": null,
+      "ronda": 15,
+      "resultadoA": null,
+      "equipoB": "Equipo 11",
+      "equipoA": "Equipo 10"
+    }
+  ],
+  "nombresEquipos": [
+    "Los Picapiedra",
+    "Equipo 2",
+    "Equipo 3",
+    "Equipo 4",
+    "Equipo 5",
+    "Equipo 6",
+    "Equipo 7",
+    "Equipo 8",
+    "Equipo 9",
+    "Equipo 10",
+    "Equipo 11",
+    "Equipo 12",
+    "Equipo 13",
+    "Equipo 14",
+    "Equipo 15",
+    "Equipo 16"
+  ],
+  "fecha": "2025-07-24T06:36:51.881Z"
+}

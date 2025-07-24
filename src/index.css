@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Puedes añadir tus estilos personalizados aquí */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfaf4;
+  color: #002c54;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+@keyframes fade-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) rotate(-5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.animate-fade-zoom {
+  animation: fade-zoom 0.8s ease-out forwards;
+}
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-top3 {
+  animation: fadeSlideUp 0.6s ease-in-out;
+}
+
+
