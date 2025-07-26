@@ -1,8 +1,6 @@
 services:
   - type: static
-    name: horasCamping
+    name: torneo-petanca
     env: node
     buildCommand: npm install && npm run build
-    startCommand: serve -s build
     staticPublishPath: build
-    branch: main
