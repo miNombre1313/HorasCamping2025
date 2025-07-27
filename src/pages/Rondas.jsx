@@ -9,7 +9,7 @@ export default function Rondas() {
   const navigate = useNavigate();
   const [rondas, setRondas] = useState([]);
   const [mostrarBotonSubir, setMostrarBotonSubir] = useState(false);
-  const partidaId = localStorage.getItem('partidaId');
+  const nombrePartida = localStorage.getItem('nombrePartida');
 
   useEffect(() => {
     const cargarRondas = async () => {
@@ -51,11 +51,10 @@ export default function Rondas() {
   }, [partidaId]);
 
   const guardarYSobrescribir = async () => {
-    if (!partidaId) {
-      Swal.fire('Error', 'No se encontró ID de la partida', 'error');
+    if (!nombrePartida) {
+      Swal.fire('Error', 'No se encontró el nombre de la partida', 'error');
       return;
     }
-
     try {
       const datos = {
         fecha: new Date().toISOString(),
@@ -66,7 +65,7 @@ export default function Rondas() {
           ronda.map((enf) => ({ ...enf, ronda: idx + 1 }))
         ),
       };
-      await actualizarPartidaFirestore(partidaId, datos);
+      await actualizarPartidaFirestore(nombrePartida, datos);
       Swal.fire('Guardado', 'La partida ha sido actualizada en la nube', 'success').then(() => {
         navigate('/configuracion');
       });
@@ -172,10 +171,25 @@ export default function Rondas() {
                       type="number"
                       placeholder="A"
                       className="w-16 p-1 border rounded text-center"
+                      min={0}
+                      max={13}
                       value={enf.resultadoA ?? ''}
                       onChange={(e) => {
+                        let valor = parseInt(e.target.value);
+                        if (isNaN(valor)) valor = 0;
+                        if (valor < 0) valor = 0;
+
+                        if (valor > 13) {
+                          Swal.fire({
+                            icon: 'warning',
+                            title: 'Puntuación no válida',
+                            text: 'No se puede superar el máximo de 13 puntos.',
+                          });
+                          return;
+                        }
+
                         const nuevasRondas = [...rondas];
-                        nuevasRondas[rondaIdx][enfIdx].resultadoA = parseInt(e.target.value) || 0;
+                        nuevasRondas[rondaIdx][enfIdx].resultadoA = valor;
                         setRondas(nuevasRondas);
                         localStorage.setItem(
                           'rondas',
@@ -188,10 +202,25 @@ export default function Rondas() {
                       type="number"
                       placeholder="B"
                       className="w-16 p-1 border rounded text-center"
+                      min={0}
+                      max={13}
                       value={enf.resultadoB ?? ''}
                       onChange={(e) => {
+                        let valor = parseInt(e.target.value);
+                        if (isNaN(valor)) valor = 0;
+                        if (valor < 0) valor = 0;
+
+                        if (valor > 13) {
+                          Swal.fire({
+                            icon: 'warning',
+                            title: 'Puntuación no válida',
+                            text: 'No se puede superar el máximo de 13 puntos.',
+                          });
+                          return;
+                        }
+
                         const nuevasRondas = [...rondas];
-                        nuevasRondas[rondaIdx][enfIdx].resultadoB = parseInt(e.target.value) || 0;
+                        nuevasRondas[rondaIdx][enfIdx].resultadoB = valor;
                         setRondas(nuevasRondas);
                         localStorage.setItem(
                           'rondas',
