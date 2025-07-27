@@ -10,6 +10,7 @@ export default function Rondas() {
   const [rondas, setRondas] = useState([]);
   const [mostrarBotonSubir, setMostrarBotonSubir] = useState(false);
   const nombrePartida = localStorage.getItem('nombrePartida');
+  const partidaId = localStorage.getItem('partidaId');
 
   useEffect(() => {
     const cargarRondas = async () => {
@@ -65,7 +66,7 @@ export default function Rondas() {
           ronda.map((enf) => ({ ...enf, ronda: idx + 1 }))
         ),
       };
-      await actualizarPartidaFirestore(nombrePartida, datos);
+      await actualizarPartidaFirestore(partidaId, datos);
       Swal.fire('Guardado', 'La partida ha sido actualizada en la nube', 'success').then(() => {
         navigate('/configuracion');
       });

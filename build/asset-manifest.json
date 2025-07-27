@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c3091ff.css",
-    "main.js": "/static/js/main.ba573ce1.js",
+    "main.css": "/static/css/main.d4221eb1.css",
+    "main.js": "/static/js/main.c19af7f1.js",
     "static/media/merriweather-latin-400-normal.woff": "/static/media/merriweather-latin-400-normal.6ba9d8710b656b7a51ef.woff",
     "static/media/merriweather-latin-ext-400-normal.woff": "/static/media/merriweather-latin-ext-400-normal.e303711999dd709827e0.woff",
     "static/media/poppins-devanagari-400-normal.woff": "/static/media/poppins-devanagari-400-normal.421fe9869ff4b58e2d7b.woff",
@@ -19,11 +19,11 @@
     "static/media/merriweather-vietnamese-400-normal.woff2": "/static/media/merriweather-vietnamese-400-normal.5b4724a702ea15f76217.woff2",
     "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.d7c074a9c34fe9785f69.woff2",
     "index.html": "/index.html",
-    "main.1c3091ff.css.map": "/static/css/main.1c3091ff.css.map",
-    "main.ba573ce1.js.map": "/static/js/main.ba573ce1.js.map"
+    "main.d4221eb1.css.map": "/static/css/main.d4221eb1.css.map",
+    "main.c19af7f1.js.map": "/static/js/main.c19af7f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c3091ff.css",
-    "static/js/main.ba573ce1.js"
+    "static/css/main.d4221eb1.css",
+    "static/js/main.c19af7f1.js"
   ]
 }

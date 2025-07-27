@@ -18,10 +18,12 @@ export default function PartidasGuardadas() {
   }, []);
 
   const cargarPartida = (partida) => {
-    localStorage.setItem('numEquipos', partida.equipos);
-    localStorage.setItem('numPistas', partida.pistas);
-    localStorage.setItem('partidaId', partida.id);
+    // Guarda datos en localStorage
+    localStorage.setItem('rondas', JSON.stringify(partida.rondas));
+    localStorage.setItem('numEquipos', partida.equipos.toString());
+    localStorage.setItem('numPistas', partida.pistas.toString());
     localStorage.setItem('nombresEquipos', JSON.stringify(partida.nombresEquipos));
+    localStorage.setItem('partidaId', partida.id); // ESTA LÍNEA ES FUNDAMENTAL
 
     // Agrupar las rondas planas por número de ronda
     const agrupadas = partida.rondas.reduce((acc, enf) => {
