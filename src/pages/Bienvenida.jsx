@@ -5,13 +5,21 @@ import Swal from 'sweetalert2';
 export default function Bienvenida() {
   const navigate = useNavigate();
 
-  const continuar = () => {
+  const inicio = () => {
     Swal.fire({
       title: '¡Bienvenido!',
-      text: 'Vamos a configurar el torneo',
-      icon: 'success',
-      confirmButtonText: 'Continuar'
-    }).then(() => navigate('/configuracion'));
+      text: 'Primero debes iniciar sesión para continuar.',
+      icon: 'info',
+      confirmButtonText: 'Aceptar'
+    }).then(() => navigate('/login'));
+  };
+  const registro = () => {
+    Swal.fire({
+      title: '¡Bienvenido!',
+      text: 'Primero debes registrarte para continuar.',
+      icon: 'info',
+      confirmButtonText: 'Aceptar'
+    }).then(() => navigate('/registro'));
   };
 
   return (
@@ -29,13 +37,22 @@ export default function Bienvenida() {
         <p className="text-lg md:text-xl text-gray-700 mb-6" style={{ fontFamily: 'Poppins' }}>
           Bienvenido al organizador digital del torneo de las horas de petanca del "Camping El Pla de Mar".
         </p>
-        <button
-          onClick={continuar}
-          className="bg-[#002c54] text-white px-6 py-3 rounded-lg font-semibold shadow-md transform transition-all duration-300 hover:bg-[#004080] hover:scale-110 hover:shadow-xl"
-          style={{ fontFamily: 'Poppins' }}
-        >
-          Comenzar
-        </button>
+        <div className="flex flex-col md:flex-row gap-4 mt-4">
+          <button
+            onClick={inicio}
+            className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transform transition-all duration-300 hover:bg-green-700 hover:scale-110 hover:shadow-xl"
+            style={{ fontFamily: 'Poppins' }}
+          >
+            Iniciar Sesión
+          </button>
+          <button
+            onClick={registro}
+            className="bg-[#002c54] text-white px-6 py-3 rounded-lg font-semibold shadow-md transform transition-all duration-300 hover:bg-[#004080] hover:scale-110 hover:shadow-xl"
+            style={{ fontFamily: 'Poppins' }}
+          >
+            Regístrate
+          </button>
+        </div>
       </div>
     </div>
   );

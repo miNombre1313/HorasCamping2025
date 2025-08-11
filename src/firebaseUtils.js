@@ -1,17 +1,34 @@
 // src/firebaseUtils.js
 import { collection, addDoc, getDocs, getDoc, deleteDoc, doc, setDoc, query, orderBy, updateDoc } from 'firebase/firestore';
-import db from './firebaseConfig'; // debe ser una exportación por defecto
+import { db } from './firebaseConfig';
 
 const partidasRef = collection(db, 'partidas');
 
 export const guardarPartidaFirestore = async (partida, id = null) => {
   try {
+    // Obtener el usuario activo desde localStorage
+    const usuario = JSON.parse(localStorage.getItem('usuarioActivo'));
+    const creador = usuario?.nombre && usuario?.apellido
+      ? `${usuario.nombre}_${usuario.apellido}`.replace(/\s+/g, '_')
+      : 'Anonimo';
+
+    // Generar ID con nombre personalizado
+    const fecha = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+    const idDocumento = `${creador}_${fecha}_${Date.now()}`;
+
+    const partidaConAutor = {
+      ...partida,
+      creadoPor: creador,
+      uid: usuario?.uid || 'desconocido'
+    };
+
+    // Si ya hay un ID explícito, usarlo
     if (id) {
-      await setDoc(doc(db, 'partidas', id), partida); // sobrescribe si existe
+      await setDoc(doc(db, 'partidas', id), partidaConAutor);
       return id;
     } else {
-      const docRef = await addDoc(partidasRef, partida); // crea uno nuevo
-      return docRef.id;
+      await setDoc(doc(db, 'partidas', idDocumento), partidaConAutor);
+      return idDocumento;
     }
   } catch (error) {
     console.error('❌ Error al guardar la partida:', error);
@@ -46,8 +63,8 @@ export const borrarPartidaFirestore = async (id) => {
 };*/
 
 export const actualizarPartidaFirestore = async (id, nuevosDatos) => {
-  const partidaRef = doc(db, 'partidas', id);
-  await updateDoc(partidaRef, nuevosDatos);
+  const partidasRef = collection(db, 'partidas');
+  await updateDoc(partidasRef, nuevosDatos);
 };
 
 
