@@ -1,3 +1,4 @@
+// src/App.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Bienvenida from './pages/Bienvenida';
@@ -8,42 +9,84 @@ import PartidasGuardadas from './pages/PartidasGuardadas';
 import ModificarNombres from './pages/ModificarNombres';
 import Resumen from './pages/Resumen';
 import LayoutConFooter from './components/LayoutConFooter';
-import RegisterWithEmail from './pages/RegisterWithEmail';
-import LoginWithEmail from './pages/LoginWithEmail';
+import Registro from './pages/Registro';
+import Login from './pages/Login';
 import PerfilMaster from './pages/PerfilMaster';
 import RutaProtegida from './components/RutaProtegida';
 
 function App() {
   return (
     <Routes>
-      {/* Páginas que SÍ llevan Layout con footer */}
+      {/* Páginas con layout */}
       <Route element={<LayoutConFooter />}>
         <Route path="/" element={<Bienvenida />} />
-        <Route path="/rondas" element={<Rondas />} />
-        <Route path="/clasificacion" element={<Clasificacion />} />
-        <Route path="/partidasguardadas" element={<PartidasGuardadas />} />
-        <Route path="/modificarnombres" element={<ModificarNombres />} />
-        <Route path="/resumen" element={<Resumen />} />
-        <Route path="/perfil-master" element={<PerfilMaster />} />
-        <Route path="/configuracion" element={
-          <RutaProtegida>
-            <Configuracion />
-          </RutaProtegida>
-        } />
 
-        <Route path="/rondas" element={
-          <RutaProtegida>
-            <Rondas />
-          </RutaProtegida>
-        } />
+        {/* 🔒 Protegidas */}
+        <Route
+          path="/configuracion"
+          element={
+            <RutaProtegida>
+              <Configuracion />
+            </RutaProtegida>
+          }
+        />
+        <Route
+          path="/rondas"
+          element={
+            <RutaProtegida>
+              <Rondas />
+            </RutaProtegida>
+          }
+        />
+        <Route
+          path="/clasificacion"
+          element={
+            <RutaProtegida>
+              <Clasificacion />
+            </RutaProtegida>
+          }
+        />
+        <Route
+          path="/partidasguardadas"
+          element={
+            <RutaProtegida>
+              <PartidasGuardadas />
+            </RutaProtegida>
+          }
+        />
+        <Route
+          path="/modificarnombres"
+          element={
+            <RutaProtegida>
+              <ModificarNombres />
+            </RutaProtegida>
+          }
+        />
+        <Route
+          path="/resumen"
+          element={
+            <RutaProtegida>
+              <Resumen />
+            </RutaProtegida>
+          }
+        />
+        <Route
+          path="/perfil-master"
+          element={
+            <RutaProtegida soloMaster>
+              <PerfilMaster />
+            </RutaProtegida>
+          }
+        />
       </Route>
 
-      {/* Páginas que NO llevan Layout con footer */}
-      <Route path="/login" element={<LoginWithEmail />} />
-      <Route path="/registro" element={<RegisterWithEmail />} />
+      {/* Páginas sin layout */}
+      <Route path="/login" element={<Login />} />
+      <Route path="/registro" element={<Registro />} />
     </Routes>
   );
 }
 
 export default App;
+
 
